@@ -1,5 +1,6 @@
+//Software Engineering lab task to ENG/Abdelrahman
 class PERSON {
-    public void WAKE_UP() {
+    public void Wake_Up() {
         System.out.println("Waking up...");
     }
 
@@ -79,19 +80,19 @@ class Main {
         Housewife housewife = new Housewife();
 
         System.out.println("== Worker ==");
-        worker.WAKE_UP();
+        worker.Wake_Up();
         worker.working();
         worker.homeRepairs();
         worker.SLEEP();
 
         System.out.println("\n== Student ==");
-        student.WAKE_UP();
+        student.Wake_Up();
         student.studying();
         student.helpParents();
         student.SLEEP();
 
         System.out.println("\n== Housewife ==");
-        housewife.WAKE_UP();
+        housewife.Wake_Up();
         housewife.homeRoutine();
         housewife.childRearing();
         housewife.SLEEP();
