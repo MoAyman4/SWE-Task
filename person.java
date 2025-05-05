@@ -4,11 +4,11 @@ class PERSON {
         System.out.println("Waking up...");
     }
 
-    public void feed() {
+    public void FEED() {
         System.out.println("Feeding...");
     }
 
-    public void sleep() {
+    public void SLEEP() {
         System.out.println("Sleeping...");
     }
 
@@ -83,18 +83,18 @@ class Main {
         worker.Wake_Up();
         worker.working();
         worker.homeRepairs();
-        worker.sleep();
+        worker.SLEEP();
 
         System.out.println("\n== Student ==");
         student.Wake_Up();
         student.studying();
         student.helpParents();
-        student.sleep();
+        student.SLEEP();
 
         System.out.println("\n== HouseWife ==");
         housewife.Wake_Up();
         housewife.homeRoutine();
         housewife.childRearing();
-        housewife.sleep();
+        housewife.SLEEP();
     }
 }
