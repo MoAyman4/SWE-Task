@@ -4,11 +4,11 @@ class PERSON {
         System.out.println("Waking up...");
     }
 
-    public void FEED() {
+    public void feed() {
         System.out.println("Feeding...");
     }
 
-    public void SLEEP() {
+    public void sleep() {
         System.out.println("Sleeping...");
     }
 
@@ -64,12 +64,12 @@ class Students extends PERSON {
 class Housewife extends PERSON {
     @Override
     public void homeRoutine() {
-        System.out.println("Housewife is doing home routine...");
+        System.out.println("HouseWife is doing home routine...");
     }
 
     @Override
     public void childRearing() {
-        System.out.println("Housewife is taking care of children...");
+        System.out.println("HouseWife is taking care of children...");
     }
 }
 
@@ -83,18 +83,18 @@ class Main {
         worker.Wake_Up();
         worker.working();
         worker.homeRepairs();
-        worker.SLEEP();
+        worker.sleep();
 
         System.out.println("\n== Student ==");
         student.Wake_Up();
         student.studying();
         student.helpParents();
-        student.SLEEP();
+        student.sleep();
 
-        System.out.println("\n== Housewife ==");
+        System.out.println("\n== HouseWife ==");
         housewife.Wake_Up();
         housewife.homeRoutine();
         housewife.childRearing();
-        housewife.SLEEP();
+        housewife.sleep();
     }
 }
